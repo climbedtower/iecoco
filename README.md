@@ -1,9 +1,9 @@
 # HomeMapWidget
 
-Android widget that displays a static map showing the route from the device's current location to a saved home location.
+デバイスの現在地から保存した自宅までのルートを示す静的な地図を表示する Android ウィジェットです。
 
-This project uses Google Static Maps API and WorkManager to periodically update the widget image.
+このプロジェクトでは Google Static Maps API と WorkManager を利用し、ウィジェットの画像を定期的に更新します。
 
-## Building
-1. Place your Google Maps API key in `local.properties` as `MAPS_API_KEY=YOUR_KEY`.
-2. Build with Gradle.
+## ビルド方法
+1. `local.properties` に `MAPS_API_KEY=YOUR_KEY` の形式で Google Maps API キーを記述します。
+2. Gradle でビルドします。
